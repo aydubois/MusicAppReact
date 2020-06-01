@@ -1,0 +1,41 @@
+header{
+    width: 70%;
+    margin:auto;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: right;
+}
+
+
+header img{
+    max-width:100px;
+}
+
+header h1{
+    margin-bottom: 0;
+}
+
+.App footer{
+    display: flex;
+    margin-top:2em;
+    padding-bottom:1em;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.App footer img{
+    width:45px;
+}
+.App > footer:nth-child(5) > div:nth-child(1) {
+    display: flex;
+}
+
+.App > footer:nth-child(5) > div:nth-child(1) > h2:nth-child(2) > span:nth-child(1) {
+    font-size: 0.3em;
+}
+
+.App > footer:nth-child(5) > a:nth-child(2) {
+    color: white;
+    text-decoration: underline;
+}

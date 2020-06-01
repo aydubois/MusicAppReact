@@ -1,0 +1,47 @@
+.searchBar{
+    width: 100%;
+    margin-bottom:3em;
+}
+.searchBar>p{
+    margin:0;
+}
+.searchBar form{
+    width:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.searchBar form *{
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.searchBar input[type="text"]{
+    width: 70%;
+}
+
+.searchBar input{
+    padding: 1rem;
+}
+
+.searchBar select{
+    width: 100%;
+}
+
+.searchBar .optionGroup{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.searchBar span {color:red;}
+
+.searchBar .errors{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

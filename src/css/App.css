@@ -1,0 +1,10 @@
+.App {
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
+}
+.App header{
+  display: flex;
+justify-content: flex-start;
+padding: 3em;
+}
