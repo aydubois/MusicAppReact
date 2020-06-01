@@ -9,6 +9,7 @@ class SearchResults extends React.Component{
 
     constructor(props){
         super(props)
+        console.log(props)
         this.refAnchor = createRef()
         this.refGoAnchor = createRef()
         this.inputSubmit = createRef();

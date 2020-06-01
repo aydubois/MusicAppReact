@@ -5,21 +5,18 @@ class OptionsPagination extends React.Component{
 
     constructor(props){
         super(props)
+
         this.inputSubmit = createRef()
+        
         this.state = {
+            open : false,
             desactivePaginate : false,
             valuePaginate : 25,
-            open : false,
         }
     }
     
     handleSubmit = (e) => {
         e.preventDefault()
-        // if(this.state.desactivePaginate){
-        //     return(
-        //         alert("Attention la désactivation de la pagination peut créer un délai d'attente assez long si le nombre de résultats est supérieur à 500")
-        //     )
-        // }
         if(e.target[0].value){
             this.setState({
                 valuePaginate : e.target[0].value

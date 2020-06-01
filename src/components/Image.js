@@ -6,7 +6,7 @@ class Image extends React.PureComponent{
 
     render(){
         return(
-        <img src={this.props.small} alt={this.props.alt}/>
+            <img src={this.props.small} alt={this.props.alt}/>
         )
     }
 }
